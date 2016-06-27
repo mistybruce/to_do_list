@@ -26,7 +26,8 @@
 
 <hr>
 <h3>Add a note</h3>
-
+ <h1>
+ Making a different change
 
 <form method = "POST" action = "/cards/{{ $card->id }}/notes">
 <input type = "hidden" name = "_token" value = "{{ csrf_token() }}">
@@ -38,6 +39,7 @@
 		<textarea name= "body" class="form-control"></textarea>
 
 	</div>
+
 
 	<div class = "form-group">
 		<button type ="submit" class="btn btn-primary">Add Note</button>

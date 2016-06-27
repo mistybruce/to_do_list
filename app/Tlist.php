@@ -30,6 +30,11 @@ public function items()
 
 	}
 
+	public function bye {
+
+		return "bye";
+	}
+
 
 
     
